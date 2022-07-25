@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Address" max_length="40" name="x_845657_dataapp_address" type="collection">
+        <element label="Alpha-2 country code" max_length="40" name="alpha_2_country_code" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="32" name="country" reference="x_845657_dataapp_country" type="reference"/>
+        <element label="Latitude" max_length="40" name="latitude" type="string"/>
+        <element label="Longitude" max_length="40" name="longitude" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Number on street" max_length="40" name="number_on_street" type="integer"/>
+        <element label="Postal code" max_length="40" name="postal_code" type="string"/>
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+    </element>
+</database>

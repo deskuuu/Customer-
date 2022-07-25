@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Order" max_length="40" name="x_845657_dataapp_order" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Customer" max_length="32" name="customer" reference="x_845657_dataapp_customer" type="reference"/>
+        <element label="Final price" max_length="40" name="final_price" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Related list of order-lines" max_length="4000" name="related_list_of_order_lines" type="glide_list"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="3"/>
+                <element inactive_on_update="false" label="In-progress" value="1"/>
+                <element inactive_on_update="false" label="Rejected" value="4"/>
+                <element inactive_on_update="false" label="Requested" value="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

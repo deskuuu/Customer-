@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_845657_dataapp.order_line_user" name="x_845657_dataapp.order_line_user">0dd67d9f2f34911004702aa62799b641</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 09:40:45</sys_created_on>
+        <sys_id>ddd67d9f2f34911004702aa62799b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0dd67d9f2f34911004702aa62799b641</sys_name>
+        <sys_package display_value="DataApp" source="x_845657_dataapp">52b1f9972f34911004702aa62799b6c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataApp">52b1f9972f34911004702aa62799b6c8</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ddd67d9f2f34911004702aa62799b642</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 09:40:45</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
